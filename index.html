@@ -1,38 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Echoes Beyond Earth</title>
-    <meta name="description" content="The machines humans left on the Moon and Mars, and what they taught us.">
+
+    <meta name="description" content="Explore the stories and scientific legacy of human-made machines left on the Moon and Mars.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header class="site-header">
-        <nav class="navbar" aria-label="Main">
-            <a class="logo" href="index.html">Echoes Beyond Earth</a>
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a class="logo" href="index.html">
+                Echoes Beyond Earth
+            </a>
 
             <ul class="nav-links">
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="explore.html">Explore</a></li>
-               
-                <li><a href="timeline.html">Timeline</a></li>
+                <li>
+                    <a href="index.html" aria-current="page">Home</a>
+                </li>
+
+                <li>
+                    <a href="explore.html">Explore</a>
+                </li>
+
+                <li>
+                    <a href="timeline.html">Timeline</a>
+                </li>
             </ul>
+
         </nav>
     </header>
 
     <main>
+
+        <!-- HERO SECTION -->
+
         <section class="hero" id="hero">
+
             <canvas id="sky" aria-hidden="true"></canvas>
-            <p class="comet-hint" aria-hidden="true">Drag the comet</p>
+
+            <p class="comet-hint" aria-hidden="true">
+                Drag the comet
+            </p>
 
             <div class="hero-content">
+
                 <h1>
                     <span class="line"><span>They left.</span></span>
                     <span class="line"><span>Their legacy</span></span>
@@ -41,47 +65,101 @@
 
                 <p class="hero-description">
                     Across the Moon and Mars, machines built to explore
-                    distant worlds are still sitting where they stopped.
-                    Read what each one found, and how it ended.
+                    distant worlds left behind traces of their journeys.
+                    Discover what they found, what they taught us,
+                    and what remains today.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="explore.html" class="primary-button">Explore the artifacts</a>
-                    <a href="#about" class="text-link">Read their stories</a>
-                </div>
+    <a href="explore.html" class="primary-button">
+        Explore the artifacts
+    </a>
+</div>
+
+<p class="hero-extra">
+    Explore their stories. Discover what they found.
+</p>
+
             </div>
+
         </section>
 
+
+        <!-- ABOUT SECTION -->
+
         <section class="about" id="about">
-            <h2>Not everything that travels into space comes back.</h2>
+
+            <h2>
+                Not everything that travels into space comes back.
+            </h2>
 
             <div class="about-body">
+
                 <p>
-                    From lunar landers to Mars rovers, these are the
-                    human-made machines that stayed behind, and the science
-                    they sent home before they went quiet.
+                    From lunar landers to Mars rovers, discover the
+                    human-made machines that remained beyond Earth,
+                    the science they contributed, and the stories
+                    behind their final destinations.
                 </p>
 
                 <table class="ledger">
+
                     <caption>Still there</caption>
+
                     <thead>
-                        <tr><th scope="col">Machine</th><th scope="col">Where</th><th scope="col">Landed</th></tr>
+                        <tr>
+                            <th scope="col">Machine</th>
+                            <th scope="col">Where</th>
+                            <th scope="col">Landed</th>
+                        </tr>
                     </thead>
+
                     <tbody>
-                        <tr><th scope="row">Surveyor 3</th><td>Moon, Ocean of Storms</td><td>1967</td></tr>
-                        <tr><th scope="row">Eagle descent stage</th><td>Moon, Sea of Tranquility</td><td>1969</td></tr>
-                        <tr><th scope="row">Spirit</th><td>Mars, Gusev crater</td><td>2004</td></tr>
-                        <tr><th scope="row">Opportunity</th><td>Mars, Meridiani Planum</td><td>2004</td></tr>
+
+                        <tr>
+                            <th scope="row">Surveyor 3</th>
+                            <td>Moon, Ocean of Storms</td>
+                            <td>1967</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Eagle descent stage</th>
+                            <td>Moon, Sea of Tranquility</td>
+                            <td>1969</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Spirit</th>
+                            <td>Mars, Gusev Crater</td>
+                            <td>2004</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Opportunity</th>
+                            <td>Mars, Meridiani Planum</td>
+                            <td>2004</td>
+                        </tr>
+
                     </tbody>
+
                 </table>
+
             </div>
+
         </section>
+
     </main>
 
+
     <footer>
-        <p>© 2026 Echoes Beyond Earth. Built for the NASA Space Apps Challenge.</p>
+        <p>
+            © 2026 Echoes Beyond Earth.
+            Built for the NASA Space Apps Challenge.
+        </p>
     </footer>
 
+
     <script src="script.js"></script>
+
 </body>
 </html>
