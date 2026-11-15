@@ -52,7 +52,7 @@
 
         } catch (error) {
 
-            console.error(error);
+            console.error("Error loading story:", error);
             showError();
 
         }
@@ -86,20 +86,29 @@
         document.getElementById("story-world").textContent =
             `Location: ${item.world}`;
 
+        // Load equipment image
         const image = document.getElementById("story-image");
 
-        if (item.image) {
-            image.src = item.image;
-            image.alt = item.name;
-            image.hidden = false;
-        } else {
-            image.hidden = true;
-        }
-
         image.onerror = () => {
+            console.error("Failed to load image:", image.src);
             image.hidden = true;
         };
 
+        image.onload = () => {
+            image.hidden = false;
+            console.log("Image loaded successfully:", image.src);
+        };
+
+        if (item.image) {
+            image.alt = item.name;
+            image.hidden = false;
+            image.src = new URL(item.image, document.baseURI).href;
+        } else {
+            image.hidden = true;
+            image.removeAttribute("src");
+        }
+
+        // Load source link
         const source = document.getElementById("story-source");
 
         if (item.source) {
