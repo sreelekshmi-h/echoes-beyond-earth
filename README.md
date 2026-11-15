@@ -64,7 +64,8 @@ Built for the **NASA Space Apps Challenge 2026**.
 
 ## 👥 Team
 
-Created by our NASA Space Apps Challenge team.
+Emilin Suresh
+Sree Lekshmi H
 
 ---
 
