@@ -8,7 +8,7 @@
     "image": "data/images/Apollo Lunar Modules.jpg",
     "story": "On 20 July 1969, Apollo 11's Lunar Module, named Eagle, carried astronauts Neil Armstrong and Buzz Aldrin to the surface of the Moon. It was the first crewed spacecraft to land humans on the lunar surface. After landing, Armstrong and Aldrin stepped outside and explored the surrounding area, collecting lunar samples and carrying out experiments. Eagle also carried the equipment needed to support the astronauts during their stay on the Moon. The mission deployed the Early Apollo Scientific Experiments Package (EASEP), which included scientific instruments for studying the lunar environment.",
     "status": "After the astronauts returned to the Command Module, Eagle's ascent stage was separated from its descent stage. The descent stage remained at the Sea of Tranquility as a reminder of the first human landing on the Moon. Apollo 11 deployed EASEP; it did not deploy the later Apollo Lunar Surface Experiments Package (ALSEP).",
-    "source": ""
+    "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C"
   },
   {
     "id": "lunar-roving-vehicle",
@@ -18,7 +18,7 @@
     "image": "data/images/LRV.jpg",
     "story": "The Lunar Roving Vehicle, commonly known as the Moon buggy, was introduced during Apollo 15 in 1971. It allowed astronauts to travel farther across the lunar surface than they could on foot. The battery-powered vehicle carried two astronauts and their equipment, helping them explore the landing region, collect lunar samples and investigate geological features. Its use made it possible to cover a much larger area during lunar surface missions.",
     "status": "After the Apollo 15 mission, the Lunar Roving Vehicle was left on the Moon near the mission's landing site. It remains there as one of the human-made machines left behind during lunar exploration.",
-    "source": ""
+    "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
   },
   {
     "id": "apollo-12-alsep",
@@ -28,7 +28,7 @@
     "image": "data/images/ALSEP.jpg",
     "story": "The Apollo Lunar Surface Experiments Package, known as ALSEP, was a collection of scientific instruments deployed by astronauts during later Apollo missions. The Apollo 12 astronauts installed their ALSEP station near the Intrepid landing site in 1969. Its instruments were designed to study the Moon and its environment over an extended period. They collected information about lunar seismic activity, the Moon's magnetic properties and other physical conditions, allowing scientists on Earth to investigate the lunar environment even after the astronauts had returned home.",
     "status": "The ALSEP instruments transmitted scientific data to Earth for several years. NASA ended the experiments in 1977, and the equipment was left on the lunar surface. The Apollo 12 ALSEP station is separate from the EASEP deployed during Apollo 11.",
-    "source": ""
+    "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
   },
   {
     "id": "surveyor-3",
@@ -38,6 +38,6 @@
     "image": "data/images/Surveyor Landers.jpg",
     "story": "Surveyor 3 was an uncrewed NASA spacecraft that landed on the Moon on 20 April 1967. Its mission was to study the lunar surface and help scientists understand whether the ground could support a future crewed landing. The spacecraft carried a television camera and scientific equipment used to examine and investigate the lunar soil. Its observations provided valuable information about the lunar surface before astronauts visited the same region.",
     "status": "Surveyor 3 remained on the Moon until Apollo 12 astronauts Pete Conrad and Alan Bean visited it in November 1969. They examined the spacecraft and collected selected parts, including its television camera, to bring back to Earth for analysis. Surveyor 3 itself remains at its landing site in the Ocean of Storms.",
-    "source": ""
+    "source": "https://science.nasa.gov/mission/surveyor-3/"
   }
 ]
