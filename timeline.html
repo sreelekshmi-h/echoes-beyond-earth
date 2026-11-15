@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mission Timeline | Echoes Beyond Earth</title>
+
+    <meta name="description"
+        content="Explore the history of machines sent to the Moon and Mars.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a class="logo" href="index.html">
+                Echoes Beyond Earth
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="timeline-hero">
+
+            <p class="story-label">A HISTORY OF EXPLORATION</p>
+
+            <h1>Every mission leaves a mark.</h1>
+
+            <p>
+                From the first robotic landers to the rovers that travelled
+                across distant worlds, explore the machines that became
+                part of our space exploration history.
+            </p>
+
+        </section>
+
+        <section class="timeline-section">
+
+            <div class="timeline-filters">
+
+                <button class="filter-btn active" data-filter="all">
+                    All missions
+                </button>
+
+                <button class="filter-btn" data-filter="moon">
+                    Moon
+                </button>
+
+                <button class="filter-btn" data-filter="mars">
+                    Mars
+                </button>
+
+            </div>
+
+            <div id="timeline-list">
+                <p>Loading mission timeline...</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>Echoes Beyond Earth · NASA Space Apps Challenge</p>
+    </footer>
+
+    <script src="timeline.js"></script>
+
+</body>
+</html>

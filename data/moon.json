@@ -1,0 +1,11 @@
+[
+  { 
+    "id": "surveyor-3",
+    "name": "Surveyor 3",
+    "location": "Ocean of Storms",
+    "year": 1967,
+    "story": "Surveyor 3 was sent to study the lunar surface.",
+    "status": "Visited by Apollo 12 astronauts in 1969.",
+    "image": "https://images-assets.nasa.gov/image/PIA00405/PIA00405~orig.jpg"
+  }
+]

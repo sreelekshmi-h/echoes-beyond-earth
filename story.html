@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mission Story | Echoes Beyond Earth</title>
+
+    <meta name="description" content="Discover the story behind the machines left on the Moon and Mars.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a class="logo" href="index.html">
+                Echoes Beyond Earth
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main id="story-container">
+
+        <section class="story-hero">
+
+            <a href="explore.html" class="back-link">
+                ← Back to Explore
+            </a>
+
+            <p class="story-label">MISSION ARCHIVE</p>
+
+            <h1 id="story-title">Loading story...</h1>
+
+            <p id="story-location"></p>
+
+            <img id="story-image" alt="" class="story-main-image">
+
+        </section>
+
+        <section class="story-details">
+
+            <div class="story-description">
+                <p class="story-label">THE MISSION</p>
+
+                <h2>What was its purpose?</h2>
+
+                <p id="story-text"></p>
+            </div>
+
+            <div class="story-description">
+                <p class="story-label">AFTER THE MISSION</p>
+
+                <h2>What happened next?</h2>
+
+                <p id="story-status"></p>
+            </div>
+
+            <div class="story-description">
+                <p class="story-label">MISSION DETAILS</p>
+
+                <p id="story-year"></p>
+                <p id="story-world"></p>
+            </div>
+
+            <a id="story-source" class="source-link" target="_blank" rel="noopener noreferrer" hidden>
+                Explore the original source ↗
+            </a>
+
+        </section>
+
+    </main>
+
+    <script src="story.js"></script>
+
+</body>
+</html>

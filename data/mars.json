@@ -1,0 +1,51 @@
+
+[
+  {
+    "name": "Viking 1 lander",
+    "where": "Chryse Planitia",
+    "year": 1976,
+    "story": "The first American lander to operate successfully on Mars. It photographed the surface and performed experiments on Martian soil.",
+    "status": "Last heard from in November 1982.",
+    "image": ""
+  },
+  {
+    "name": "Pathfinder and Sojourner",
+    "where": "Ares Vallis",
+    "year": 1997,
+    "story": "A lander and the first wheeled rover to operate on Mars.",
+    "status": "Last signal received in September 1997.",
+    "image": ""
+  },
+  {
+    "name": "Spirit",
+    "where": "Gusev Crater",
+    "year": 2004,
+    "story": "A Mars rover that explored the surface and found evidence of past water.",
+    "status": "Last contact was in March 2010.",
+    "image": ""
+  },
+  {
+    "name": "Opportunity",
+    "where": "Meridiani Planum",
+    "year": 2004,
+    "story": "A rover that operated for about 14 years and discovered evidence of ancient water.",
+    "status": "Last contact was in June 2018.",
+    "image": ""
+  },
+  {
+    "name": "Phoenix",
+    "where": "Vastitas Borealis",
+    "year": 2008,
+    "story": "A stationary lander that confirmed the presence of water ice beneath the Martian surface.",
+    "status": "Mission ended in November 2008.",
+    "image": ""
+  },
+  {
+    "name": "InSight",
+    "where": "Elysium Planitia",
+    "year": 2018,
+    "story": "A lander that studied the interior of Mars and recorded marsquakes.",
+    "status": "Mission ended in December 2022.",
+    "image": ""
+  }
+]

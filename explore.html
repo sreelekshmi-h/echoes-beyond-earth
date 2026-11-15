@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore | Echoes Beyond Earth</title>
+
+    <meta name="description" content="Explore the machines humans left on the Moon and Mars, and discover their stories.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a class="logo" href="index.html">
+                Echoes Beyond Earth
+            </a>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="explore.html" aria-current="page">Explore</a>
+                </li>
+
+                <li>
+                    <a href="timeline.html">Timeline</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Explore Introduction -->
+        <section class="explore-hero">
+
+            <h1>Every machine has a story.</h1>
+
+            <p>
+                Explore the machines left behind on the Moon and Mars.
+                Discover where they landed, what they did,
+                and what happened to them afterwards.
+            </p>
+
+        </section>
+
+
+        <!-- Choose a World -->
+        <section class="worlds" aria-labelledby="worlds-title">
+
+            <h2 id="worlds-title" class="visually-hidden">
+                Choose a world
+            </h2>
+
+
+            <!-- Moon Card -->
+            <a class="world moon-world" href="#moon-equipment">
+
+                <span class="world-name">
+                    The Moon
+                </span>
+
+                <span class="world-count" data-count="moon"></span>
+
+                <span class="world-desc">
+                    Landers, a rover and the instruments
+                    astronauts set up by hand.
+                </span>
+
+                <span class="world-explore">
+                    Explore the Moon →
+                </span>
+
+            </a>
+
+
+            <!-- Mars Card -->
+            <a class="world mars-world" href="#mars-equipment">
+
+                <span class="world-name">
+                    Mars
+                </span>
+
+                <span class="world-count" data-count="mars"></span>
+
+                <span class="world-desc">
+                    Landers and rovers, several of which
+                    outlasted their planned missions.
+                </span>
+
+                <span class="world-explore">
+                    Explore Mars →
+                </span>
+
+            </a>
+
+        </section>
+
+
+        <!-- Moon Equipment -->
+        <section id="moon-equipment" class="equipment-section">
+
+            <div class="section-intro">
+
+                <h2>Equipment on the Moon</h2>
+
+                <p class="section-note" data-note="moon"></p>
+
+            </div>
+
+            <div id="moon-cards" class="machine-list"></div>
+
+        </section>
+
+
+        <!-- Mars Equipment -->
+        <section id="mars-equipment" class="equipment-section">
+
+            <div class="section-intro">
+
+                <h2>Equipment on Mars</h2>
+
+                <p class="section-note" data-note="mars"></p>
+
+            </div>
+
+            <div id="mars-cards" class="machine-list"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Echoes Beyond Earth.
+            Built for the NASA Space Apps Challenge.
+        </p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="explore.js"></script>
+
+</body>
+</html>
